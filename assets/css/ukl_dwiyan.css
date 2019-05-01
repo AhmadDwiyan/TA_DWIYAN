@@ -1,0 +1,148 @@
+/* UKL DWIYAN :) */
+/* DIBUAT DENGAN HATI NURANI :) */
+/* Navbar Setting FADE */
+/* Background  */
+body{
+    margin: 0;
+  padding: 0;
+}
+header{
+    padding: 15px 0 50px;
+  padding-top:10%;
+  height: 600px;
+}
+.parallax{
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.atur-header{
+    margin-bottom: 100px;
+}
+/* Sectionnya ea */
+section{
+    padding-top: 3%;
+}
+.atur-card{
+    overflow: auto;
+    margin: 0 -5px;
+}
+.card{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin: 2%;
+    margin-left: 4%;
+    margin-top:3%; 
+}
+/* Navbar */
+.fixed{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+
+.dash-admin ul{
+list-style-type: none; 
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:whitesmoke;
+
+}
+.dash-admin ul li{
+    float: right;
+    
+}
+.dash-admin ul li a {
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    padding: 14px 14px;
+    display: block;
+}
+li a:hover{
+    background-color: black;
+}
+
+.kiri{
+    float: left;
+    color: firebrick;
+    font-size: 35px;
+    margin-left: 3%;
+    
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+.tombol {
+    background-color: royalblue; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.form-edit {
+
+    margin-top:10%;
+    margin-left:27%;
+  border-radius: 15px;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50%;
+    
+}
+.form-edit input[type="text"]{
+ 
+    width:50%;
+    height: 45px;
+    padding:10px;
+    margin: 10px;
+    margin-left:200px;
+}
+.form-edit h1{
+    color:firebrick;
+    padding-top:50px;
+    text-align: center;
+}
+.form-edit input[type="submit"]{
+    top: 50px;
+ border:none;
+    width:50%;
+    height: 45px;
+    padding:10px;
+    margin: 10px;
+    margin-left:200px;
+    background-color:gray; 
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    
+}
+.form-edit input[type="submit"]:hover{
+
+    background-color:black;
+    color:white; 
+}
+.form-edit input[type="file"]{
+    margin-left:200px;
+    padding:10px;
+
+}
